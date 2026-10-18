@@ -1,0 +1,64 @@
+{
+ "name": "v6 hybrid gate (OWLv2 + Grounding DINO)",
+ "detector": {
+  "owlv2": "google/owlv2-base-patch16-ensemble",
+  "grounding_dino": "IDEA-Research/grounding-dino-base",
+  "grounding_dino_phrases": [
+   "box",
+   "burner",
+   "cabinet",
+   "carton",
+   "cookie box",
+   "cooktop",
+   "drawer",
+   "stove",
+   "wooden cabinet"
+  ],
+  "grounding_dino_fallback_if_owl_empty": [
+   "dish",
+   "plate",
+   "white plate"
+  ],
+  "owl_ramp": [
+   0.1,
+   0.25
+  ],
+  "gdino_confidence_rescaled_from": [
+   0.22,
+   0.4
+  ],
+  "scene_vocab": []
+ },
+ "gate": {
+  "weights": [
+   0.266667,
+   0.4,
+   0.333333,
+   0.0
+  ],
+  "high": 0.7,
+  "low": 0.5,
+  "reground": true,
+  "mid_rule": true,
+  "mid_min_rel": 0.3,
+  "mid_min_unamb": 0.75
+ },
+ "gate_source": "weights and thresholds unchanged from the first paper's frozen_config.json",
+ "selected_on": "development start states [0, 1, 2] (detector choice only)",
+ "dev_metrics": {
+  "right bowl % (valid)": 70.0,
+  "RIGHT instructions accepted %": 57.5,
+  "  ...accepted on the RIGHT bowl %": 45.0,
+  "WRONG instructions acted on % (lower=better)": 6.7,
+  "AUROC": 0.874,
+  "J": 0.5083
+ },
+ "fresh_test_states": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "frozen_at": "2026-10-02 12:17:57"
+}

@@ -1,0 +1,22 @@
+system,condition,N,robot moved %,task success %
+hybrid + SmolVLA,clean,10,90.0,50.0
+hybrid + SmolVLA,absent_reference,10,0.0,
+hybrid + SmolVLA,absent_target,10,0.0,
+hybrid + SmolVLA,relation_violation,10,30.0,
+hybrid + SmolVLA,distractor,10,50.0,0.0
+hybrid + SmolVLA,position_change,10,40.0,0.0
+hybrid + SmolVLA,occlusion,10,50.0,40.0
+hybrid + X-VLA,clean,10,90.0,80.0
+hybrid + X-VLA,absent_reference,10,0.0,
+hybrid + X-VLA,absent_target,10,0.0,
+hybrid + X-VLA,relation_violation,10,30.0,
+hybrid + X-VLA,distractor,10,50.0,20.0
+hybrid + X-VLA,position_change,10,40.0,0.0
+hybrid + X-VLA,occlusion,10,50.0,50.0
+GDINO + SmolVLA (old),clean,10,70.0,40.0
+GDINO + SmolVLA (old),absent_reference,10,0.0,
+GDINO + SmolVLA (old),absent_target,10,20.0,
+GDINO + SmolVLA (old),relation_violation,10,30.0,
+GDINO + SmolVLA (old),distractor,10,60.0,20.0
+GDINO + SmolVLA (old),position_change,10,60.0,0.0
+GDINO + SmolVLA (old),occlusion,10,30.0,10.0

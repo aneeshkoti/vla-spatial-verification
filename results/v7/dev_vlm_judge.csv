@@ -1,0 +1,5 @@
+score,AUROC,J at 0.5,best threshold,J at best,right accepted % at best,wrong acted % at best,seconds per scene
+direct,0.79,36.4,0.55,43.1,84.2,41.1,5.51
+short,0.751,38.3,0.4,39.4,98.3,58.9,5.51
+strict,0.783,0.0,0.3,42.2,86.7,44.4,5.51
+decomp,0.834,3.3,0.05,43.9,68.3,24.4,5.51

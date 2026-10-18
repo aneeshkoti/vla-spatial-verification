@@ -1,0 +1,6 @@
+condition,N,target acc %,reference acc %,joint acc %
+clean,30,43.3,61.1,40.0
+distractor,30,50.0,66.7,50.0
+position_change,30,40.0,38.9,26.7
+occlusion,30,16.7,38.9,6.7
+relation_violation,30,23.3,61.1,20.0

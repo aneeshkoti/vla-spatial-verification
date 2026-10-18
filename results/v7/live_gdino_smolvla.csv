@@ -1,0 +1,71 @@
+gate,policy,task_id,state,kind,valid,instruction,C,reground_used,decision,robot_moved,success,episode_length,failure_reason,gate_seconds,robot_seconds
+gdino,smolvla,0,5,clean,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.532,1,EXECUTE,1,0,220,reached_but_no_grasp,8.25,157.02
+gdino,smolvla,0,5,absent_reference,0,pick up the black bowl between the blue teapot and the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,9.22,0.0
+gdino,smolvla,0,5,absent_target,0,pick up the blue teapot between the plate and the ramekin and place it on the plate,0.214,1,ABSTAIN,0,0,0,gate stopped the robot,7.69,0.0
+gdino,smolvla,0,5,relation_violation,0,pick up the black bowl between the plate and the ramekin and place it on the plate,0.597,1,EXECUTE,1,0,220,never_reached_target,10.84,148.84
+gdino,smolvla,0,5,distractor,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,10.74,0.0
+gdino,smolvla,0,5,position_change,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.218,1,ABSTAIN,0,0,0,gate stopped the robot,10.8,0.0
+gdino,smolvla,0,5,occlusion,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.542,1,EXECUTE,1,0,220,reached_but_no_grasp,10.84,162.29
+gdino,smolvla,1,5,clean,1,pick up the black bowl next to the ramekin and place it on the plate,0.874,0,EXECUTE,1,1,113,success,7.85,82.89
+gdino,smolvla,1,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.43,0.0
+gdino,smolvla,1,5,absent_target,0,pick up the blue teapot next to the ramekin and place it on the plate,0.703,0,EXECUTE,1,0,220,grasped_but_not_placed,7.27,156.33
+gdino,smolvla,1,5,relation_violation,0,pick up the black bowl next to the ramekin and place it on the plate,0.267,1,ABSTAIN,0,0,0,gate stopped the robot,10.75,0.0
+gdino,smolvla,1,5,distractor,1,pick up the black bowl next to the ramekin and place it on the plate,0.95,0,EXECUTE,1,1,122,success,10.89,89.36
+gdino,smolvla,1,5,position_change,1,pick up the black bowl next to the ramekin and place it on the plate,0.868,0,EXECUTE,1,0,220,grasped_but_not_placed,10.29,156.37
+gdino,smolvla,1,5,occlusion,1,pick up the black bowl next to the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,10.25,0.0
+gdino,smolvla,2,5,clean,1,pick up the black bowl from table center and place it on the plate,0.459,1,ABSTAIN,0,0,0,gate stopped the robot,7.0,0.0
+gdino,smolvla,2,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.35,0.0
+gdino,smolvla,2,5,absent_target,0,pick up the blue teapot from table center and place it on the plate,0.7,0,EXECUTE,1,0,220,reached_but_no_grasp,6.67,150.69
+gdino,smolvla,2,5,relation_violation,0,pick up the black bowl from table center and place it on the plate,0.363,1,ABSTAIN,0,0,0,gate stopped the robot,9.72,0.0
+gdino,smolvla,2,5,distractor,1,pick up the black bowl from table center and place it on the plate,0.775,0,EXECUTE,1,0,220,reached_but_no_grasp,10.6,159.87
+gdino,smolvla,2,5,position_change,1,pick up the black bowl from table center and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,9.82,0.0
+gdino,smolvla,2,5,occlusion,1,pick up the black bowl from table center and place it on the plate,0.459,1,ABSTAIN,0,0,0,gate stopped the robot,9.87,0.0
+gdino,smolvla,3,5,clean,1,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,1,90,success,7.83,63.23
+gdino,smolvla,3,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.73,0.0
+gdino,smolvla,3,5,absent_target,0,pick up the blue teapot on the cookie box and place it on the plate,0.215,1,ABSTAIN,0,0,0,gate stopped the robot,7.46,0.0
+gdino,smolvla,3,5,relation_violation,0,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,0,220,never_reached_target,10.96,153.69
+gdino,smolvla,3,5,distractor,1,pick up the black bowl on the cookie box and place it on the plate,0.267,1,ABSTAIN,0,0,0,gate stopped the robot,11.49,0.0
+gdino,smolvla,3,5,position_change,1,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,0,220,grasped_but_not_placed,10.86,155.15
+gdino,smolvla,3,5,occlusion,1,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,1,92,success,11.26,66.33
+gdino,smolvla,4,5,clean,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.932,0,EXECUTE,1,0,220,never_reached_target,8.01,158.86
+gdino,smolvla,4,5,absent_reference,0,pick up the black bowl in the top drawer of the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.55,0.0
+gdino,smolvla,4,5,absent_target,0,pick up the blue teapot in the top drawer of the wooden cabinet and place it on the plate,0.43,1,ABSTAIN,0,0,0,gate stopped the robot,7.45,0.0
+gdino,smolvla,4,5,relation_violation,0,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.969,0,EXECUTE,1,0,220,never_reached_target,11.13,155.61
+gdino,smolvla,4,5,distractor,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1.0,0,EXECUTE,1,0,220,never_reached_target,10.97,159.01
+gdino,smolvla,4,5,position_change,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.932,0,EXECUTE,1,0,220,never_reached_target,10.72,156.64
+gdino,smolvla,4,5,occlusion,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.932,0,EXECUTE,1,0,220,never_reached_target,10.69,158.16
+gdino,smolvla,5,5,clean,1,pick up the black bowl on the ramekin and place it on the plate,0.647,1,EXECUTE,1,0,220,reached_but_no_grasp,8.53,163.17
+gdino,smolvla,5,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,8.17,0.0
+gdino,smolvla,5,5,absent_target,0,pick up the blue teapot on the ramekin and place it on the plate,0.196,1,ABSTAIN,0,0,0,gate stopped the robot,7.87,0.0
+gdino,smolvla,5,5,relation_violation,0,pick up the black bowl on the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,11.67,0.0
+gdino,smolvla,5,5,distractor,1,pick up the black bowl on the ramekin and place it on the plate,0.663,1,EXECUTE,1,0,220,reached_but_no_grasp,11.52,160.29
+gdino,smolvla,5,5,position_change,1,pick up the black bowl on the ramekin and place it on the plate,0.73,0,EXECUTE,1,0,220,grasped_but_not_placed,12.0,165.77
+gdino,smolvla,5,5,occlusion,1,pick up the black bowl on the ramekin and place it on the plate,0.139,1,ABSTAIN,0,0,0,gate stopped the robot,11.86,0.0
+gdino,smolvla,6,5,clean,1,pick up the black bowl next to the cookie box and place it on the plate,0.183,1,ABSTAIN,0,0,0,gate stopped the robot,8.0,0.0
+gdino,smolvla,6,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.64,0.0
+gdino,smolvla,6,5,absent_target,0,pick up the blue teapot next to the cookie box and place it on the plate,0.628,1,ABSTAIN,0,0,0,gate stopped the robot,7.69,0.0
+gdino,smolvla,6,5,relation_violation,0,pick up the black bowl next to the cookie box and place it on the plate,0.228,1,ABSTAIN,0,0,0,gate stopped the robot,11.17,0.0
+gdino,smolvla,6,5,distractor,1,pick up the black bowl next to the cookie box and place it on the plate,0.32,1,ABSTAIN,0,0,0,gate stopped the robot,11.32,0.0
+gdino,smolvla,6,5,position_change,1,pick up the black bowl next to the cookie box and place it on the plate,0.204,1,ABSTAIN,0,0,0,gate stopped the robot,11.13,0.0
+gdino,smolvla,6,5,occlusion,1,pick up the black bowl next to the cookie box and place it on the plate,0.353,1,ABSTAIN,0,0,0,gate stopped the robot,11.05,0.0
+gdino,smolvla,7,5,clean,1,pick up the black bowl on the stove and place it on the plate,0.591,1,ABSTAIN,0,0,0,gate stopped the robot,8.0,0.0
+gdino,smolvla,7,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.65,0.0
+gdino,smolvla,7,5,absent_target,0,pick up the blue teapot on the stove and place it on the plate,0.217,1,ABSTAIN,0,0,0,gate stopped the robot,7.66,0.0
+gdino,smolvla,7,5,relation_violation,0,pick up the black bowl on the stove and place it on the plate,0.496,1,ABSTAIN,0,0,0,gate stopped the robot,10.7,0.0
+gdino,smolvla,7,5,distractor,1,pick up the black bowl on the stove and place it on the plate,0.093,1,ABSTAIN,0,0,0,gate stopped the robot,11.68,0.0
+gdino,smolvla,7,5,position_change,1,pick up the black bowl on the stove and place it on the plate,0.626,1,ABSTAIN,0,0,0,gate stopped the robot,10.98,0.0
+gdino,smolvla,7,5,occlusion,1,pick up the black bowl on the stove and place it on the plate,0.549,1,ABSTAIN,0,0,0,gate stopped the robot,11.25,0.0
+gdino,smolvla,8,5,clean,1,pick up the black bowl next to the plate and place it on the plate,1.0,0,EXECUTE,1,1,90,success,6.38,64.06
+gdino,smolvla,8,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.73,0.0
+gdino,smolvla,8,5,absent_target,0,pick up the blue teapot next to the plate and place it on the plate,0.457,1,ABSTAIN,0,0,0,gate stopped the robot,5.98,0.0
+gdino,smolvla,8,5,relation_violation,0,pick up the black bowl next to the plate and place it on the plate,0.589,1,ABSTAIN,0,0,0,gate stopped the robot,9.27,0.0
+gdino,smolvla,8,5,distractor,1,pick up the black bowl next to the plate and place it on the plate,1.0,0,EXECUTE,1,0,220,never_reached_target,9.28,157.14
+gdino,smolvla,8,5,position_change,1,pick up the black bowl next to the plate and place it on the plate,0.949,0,EXECUTE,1,0,220,grasped_but_not_placed,9.4,155.97
+gdino,smolvla,8,5,occlusion,1,pick up the black bowl next to the plate and place it on the plate,0.68,1,ABSTAIN,0,0,0,gate stopped the robot,9.43,0.0
+gdino,smolvla,9,5,clean,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.971,0,EXECUTE,1,1,134,success,8.04,97.56
+gdino,smolvla,9,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.73,0.0
+gdino,smolvla,9,5,absent_target,0,pick up the blue teapot on the wooden cabinet and place it on the plate,0.248,1,ABSTAIN,0,0,0,gate stopped the robot,7.68,0.0
+gdino,smolvla,9,5,relation_violation,0,pick up the black bowl on the wooden cabinet and place it on the plate,0.151,1,ABSTAIN,0,0,0,gate stopped the robot,11.35,0.0
+gdino,smolvla,9,5,distractor,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.959,0,EXECUTE,1,1,122,success,11.14,88.07
+gdino,smolvla,9,5,position_change,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.972,0,EXECUTE,1,0,220,grasped_but_not_placed,11.32,158.31
+gdino,smolvla,9,5,occlusion,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.181,1,ABSTAIN,0,0,0,gate stopped the robot,11.12,0.0

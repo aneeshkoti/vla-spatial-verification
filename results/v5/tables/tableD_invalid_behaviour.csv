@@ -1,0 +1,4 @@
+condition,N,picked up an object %,carried out the ORIGINAL task %,same outcome as with the correct instruction %,ours acted %
+absent_reference,30,13.3,0.0,33.3,3.3
+absent_target,30,40.0,23.3,43.3,13.3
+relation_violation,30,13.3,0.0,33.3,20.0

@@ -1,0 +1,8 @@
+condition,N,GDINO gate (first paper): acted %,hybrid gate (v6): acted %,SmolVLA success % (n),X-VLA success % (n)
+clean,50,52.0,70.0,66.0 (50),98.0 (50)
+absent_reference,50,2.0,0.0,,
+absent_target,50,12.0,0.0,,
+relation_violation,50,22.0,16.0,,
+distractor,50,38.0,54.0,34.0 (50),56.0 (50)
+position_change,50,52.0,44.0,0.0 (50),0.0 (50)
+occlusion,50,26.0,42.0,70.0 (50),96.0 (50)

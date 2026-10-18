@@ -1,0 +1,9 @@
+kind,ours better,same,SmolVLA better
+clean,5,18,7
+absent_reference,29,1,0
+absent_target,26,4,0
+relation_violation,24,6,0
+distractor,11,11,8
+position_change,15,15,0
+occlusion,11,8,11
+ALL,121,63,26

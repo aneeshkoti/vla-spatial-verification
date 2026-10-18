@@ -1,0 +1,3 @@
+gate,scenes,right bowl % (valid),right reference %,RIGHT instructions accepted %,  ...accepted on the RIGHT bowl %,WRONG instructions acted on % (lower=better),  95% CI,nominal success %,AUROC,J,seconds per scene
+GDINO (old),210,31.7,50.9,40.8,21.7,10.0,"(5.4, 17.9)",40.0,0.754,0.3083,3.26
+hybrid (new),210,70.0,51.9,57.5,45.0,6.7,"(3.1, 13.8)",50.0,0.874,0.5083,2.66

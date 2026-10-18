@@ -1,0 +1,9 @@
+{
+ "score": "decomp",
+ "thr": 0.05,
+ "dev_AUROC": 0.834,
+ "dev_J": 43.9,
+ "vlm": "unsloth/Qwen2.5-VL-3B-Instruct-bnb-4bit",
+ "prompt": "product of separate questions",
+ "fixed_at": "2026-10-05 03:45:59"
+}

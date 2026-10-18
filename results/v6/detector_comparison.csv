@@ -1,0 +1,5 @@
+model,questions,target bowl found %,both bowls found %,reference found %,RIGHT bowl from full phrase %,picked other bowl %,no / unclear box %,false box for absent object % (lower=better),sec per question
+gdino,181,63.3,50.0,50.8,32.5,65.0,2.5,100.0,0.5
+llmdet,181,90.0,80.0,57.4,50.0,42.5,7.5,100.0,0.35
+mm_gdino,181,53.3,43.3,55.7,50.0,40.0,10.0,100.0,0.35
+owlv2,181,98.3,96.7,54.1,37.5,37.5,25.0,0.0,0.28

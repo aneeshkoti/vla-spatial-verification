@@ -1,0 +1,6 @@
+{
+ "chosen": "hybrid",
+ "scene_vocab": [],
+ "rule": "contrast kept only if wrong-acted <= plain AND accepted-on-right-bowl >= plain, with one strictly better",
+ "decided_at": "2026-10-02 12:04:58"
+}

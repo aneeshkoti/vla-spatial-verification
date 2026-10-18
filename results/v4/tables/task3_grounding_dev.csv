@@ -1,0 +1,6 @@
+condition,N,target acc %,reference acc %,joint acc %,goal acc %,picked other bowl %,no/other object %
+clean,20,30.0,58.3,30.0,100.0,70.0,0.0
+distractor,20,40.0,58.3,40.0,100.0,30.0,30.0
+position_change,20,30.0,58.3,30.0,70.0,55.0,15.0
+occlusion,20,15.0,25.0,0.0,100.0,85.0,0.0
+relation_violation,20,25.0,58.3,20.0,100.0,60.0,15.0

@@ -1,0 +1,4 @@
+A  vs  B,scenes compared,wrong instr.: only A moved / only B moved,right instr.: only A succeeded / only B succeeded,all scenes: A better / same / B better
+hybrid + SmolVLA  vs  GDINO + SmolVLA (old),70,0 / 2  (p = 0.5000),5 / 3  (p = 0.7266),13 / 49 / 8  (p = 0.3833)
+hybrid + X-VLA  vs  GDINO + SmolVLA (old),70,0 / 2  (p = 0.5000),11 / 3  (p = 0.0574),19 / 45 / 6  (p = 0.0146)
+hybrid + X-VLA  vs  hybrid + SmolVLA,70,0 / 0  (p = 1.0000),6 / 0  (p = 0.0312),6 / 64 / 0  (p = 0.0312)

@@ -1,0 +1,71 @@
+gate,policy,task_id,state,kind,valid,instruction,C,reground_used,decision,robot_moved,success,episode_length,failure_reason,gate_seconds,robot_seconds
+hybrid,xvla,0,5,clean,1,pick up the black bowl between the plate and the ramekin and place it on the plate,1.0,0,EXECUTE,1,1,79,success,7.03,17.53
+hybrid,xvla,0,5,absent_reference,0,pick up the black bowl between the blue teapot and the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.54,0.0
+hybrid,xvla,0,5,absent_target,0,pick up the blue teapot between the plate and the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.41,0.0
+hybrid,xvla,0,5,relation_violation,0,pick up the black bowl between the plate and the ramekin and place it on the plate,0.604,1,EXECUTE,1,0,800,never_reached_target,9.8,147.52
+hybrid,xvla,0,5,distractor,1,pick up the black bowl between the plate and the ramekin and place it on the plate,1.0,0,EXECUTE,1,1,74,success,9.41,16.11
+hybrid,xvla,0,5,position_change,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.295,1,ABSTAIN,0,0,0,gate stopped the robot,10.13,0.0
+hybrid,xvla,0,5,occlusion,1,pick up the black bowl between the plate and the ramekin and place it on the plate,0.973,0,EXECUTE,1,1,75,success,9.85,16.52
+hybrid,xvla,1,5,clean,1,pick up the black bowl next to the ramekin and place it on the plate,1.0,0,EXECUTE,1,1,110,success,6.52,22.93
+hybrid,xvla,1,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.39,0.0
+hybrid,xvla,1,5,absent_target,0,pick up the blue teapot next to the ramekin and place it on the plate,0.204,1,ABSTAIN,0,0,0,gate stopped the robot,6.23,0.0
+hybrid,xvla,1,5,relation_violation,0,pick up the black bowl next to the ramekin and place it on the plate,0.252,1,ABSTAIN,0,0,0,gate stopped the robot,9.54,0.0
+hybrid,xvla,1,5,distractor,1,pick up the black bowl next to the ramekin and place it on the plate,0.633,1,ABSTAIN,0,0,0,gate stopped the robot,9.76,0.0
+hybrid,xvla,1,5,position_change,1,pick up the black bowl next to the ramekin and place it on the plate,0.905,0,EXECUTE,1,0,800,grasped_but_not_placed,9.7,164.77
+hybrid,xvla,1,5,occlusion,1,pick up the black bowl next to the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,9.09,0.0
+hybrid,xvla,2,5,clean,1,pick up the black bowl from table center and place it on the plate,0.975,0,EXECUTE,1,1,100,success,6.02,22.18
+hybrid,xvla,2,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.42,0.0
+hybrid,xvla,2,5,absent_target,0,pick up the blue teapot from table center and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,5.59,0.0
+hybrid,xvla,2,5,relation_violation,0,pick up the black bowl from table center and place it on the plate,0.37,1,ABSTAIN,0,0,0,gate stopped the robot,8.75,0.0
+hybrid,xvla,2,5,distractor,1,pick up the black bowl from table center and place it on the plate,0.812,0,EXECUTE,1,1,140,success,9.67,34.11
+hybrid,xvla,2,5,position_change,1,pick up the black bowl from table center and place it on the plate,0.867,1,EXECUTE,1,0,800,grasped_but_not_placed,9.37,179.01
+hybrid,xvla,2,5,occlusion,1,pick up the black bowl from table center and place it on the plate,0.369,1,ABSTAIN,0,0,0,gate stopped the robot,8.89,0.0
+hybrid,xvla,3,5,clean,1,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,1,84,success,7.03,18.35
+hybrid,xvla,3,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.47,0.0
+hybrid,xvla,3,5,absent_target,0,pick up the blue teapot on the cookie box and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.8,0.0
+hybrid,xvla,3,5,relation_violation,0,pick up the black bowl on the cookie box and place it on the plate,0.999,0,EXECUTE,1,0,800,wrong_object_grasped,10.29,170.71
+hybrid,xvla,3,5,distractor,1,pick up the black bowl on the cookie box and place it on the plate,0.158,1,ABSTAIN,0,0,0,gate stopped the robot,11.98,0.0
+hybrid,xvla,3,5,position_change,1,pick up the black bowl on the cookie box and place it on the plate,0.88,0,EXECUTE,1,0,800,grasped_but_not_placed,10.38,166.71
+hybrid,xvla,3,5,occlusion,1,pick up the black bowl on the cookie box and place it on the plate,1.0,0,EXECUTE,1,1,82,success,10.2,17.96
+hybrid,xvla,4,5,clean,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.706,0,EXECUTE,1,1,134,success,7.1,31.12
+hybrid,xvla,4,5,absent_reference,0,pick up the black bowl in the top drawer of the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.49,0.0
+hybrid,xvla,4,5,absent_target,0,pick up the blue teapot in the top drawer of the wooden cabinet and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.86,0.0
+hybrid,xvla,4,5,relation_violation,0,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.968,0,EXECUTE,1,0,800,never_reached_target,10.37,160.22
+hybrid,xvla,4,5,distractor,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.633,1,ABSTAIN,0,0,0,gate stopped the robot,10.37,0.0
+hybrid,xvla,4,5,position_change,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.538,1,ABSTAIN,0,0,0,gate stopped the robot,10.17,0.0
+hybrid,xvla,4,5,occlusion,1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0.633,1,ABSTAIN,0,0,0,gate stopped the robot,9.77,0.0
+hybrid,xvla,5,5,clean,1,pick up the black bowl on the ramekin and place it on the plate,0.792,0,EXECUTE,1,0,800,grasped_but_not_placed,7.12,174.6
+hybrid,xvla,5,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.93,0.0
+hybrid,xvla,5,5,absent_target,0,pick up the blue teapot on the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.82,0.0
+hybrid,xvla,5,5,relation_violation,0,pick up the black bowl on the ramekin and place it on the plate,0.331,1,ABSTAIN,0,0,0,gate stopped the robot,10.33,0.0
+hybrid,xvla,5,5,distractor,1,pick up the black bowl on the ramekin and place it on the plate,0.994,0,EXECUTE,1,0,800,grasped_but_not_placed,10.18,176.07
+hybrid,xvla,5,5,position_change,1,pick up the black bowl on the ramekin and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,11.88,0.0
+hybrid,xvla,5,5,occlusion,1,pick up the black bowl on the ramekin and place it on the plate,0.139,1,ABSTAIN,0,0,0,gate stopped the robot,10.42,0.0
+hybrid,xvla,6,5,clean,1,pick up the black bowl next to the cookie box and place it on the plate,1.0,0,EXECUTE,1,1,109,success,7.14,23.34
+hybrid,xvla,6,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.65,0.0
+hybrid,xvla,6,5,absent_target,0,pick up the blue teapot next to the cookie box and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.08,0.0
+hybrid,xvla,6,5,relation_violation,0,pick up the black bowl next to the cookie box and place it on the plate,0.467,1,ABSTAIN,0,0,0,gate stopped the robot,10.13,0.0
+hybrid,xvla,6,5,distractor,1,pick up the black bowl next to the cookie box and place it on the plate,1.0,0,EXECUTE,1,0,800,grasped_but_not_placed,10.31,184.63
+hybrid,xvla,6,5,position_change,1,pick up the black bowl next to the cookie box and place it on the plate,1.0,0,EXECUTE,1,0,800,grasped_but_not_placed,10.32,167.42
+hybrid,xvla,6,5,occlusion,1,pick up the black bowl next to the cookie box and place it on the plate,0.963,0,EXECUTE,1,1,106,success,10.2,22.98
+hybrid,xvla,7,5,clean,1,pick up the black bowl on the stove and place it on the plate,0.527,1,EXECUTE,1,1,123,success,7.43,29.11
+hybrid,xvla,7,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.62,0.0
+hybrid,xvla,7,5,absent_target,0,pick up the blue teapot on the stove and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.01,0.0
+hybrid,xvla,7,5,relation_violation,0,pick up the black bowl on the stove and place it on the plate,0.446,1,ABSTAIN,0,0,0,gate stopped the robot,10.08,0.0
+hybrid,xvla,7,5,distractor,1,pick up the black bowl on the stove and place it on the plate,0.1,1,ABSTAIN,0,0,0,gate stopped the robot,10.98,0.0
+hybrid,xvla,7,5,position_change,1,pick up the black bowl on the stove and place it on the plate,0.495,1,ABSTAIN,0,0,0,gate stopped the robot,10.24,0.0
+hybrid,xvla,7,5,occlusion,1,pick up the black bowl on the stove and place it on the plate,0.488,1,ABSTAIN,0,0,0,gate stopped the robot,10.24,0.0
+hybrid,xvla,8,5,clean,1,pick up the black bowl next to the plate and place it on the plate,1.0,0,EXECUTE,1,1,94,success,5.55,21.8
+hybrid,xvla,8,5,absent_reference,0,pick up the black bowl next to the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.54,0.0
+hybrid,xvla,8,5,absent_target,0,pick up the blue teapot next to the plate and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,5.02,0.0
+hybrid,xvla,8,5,relation_violation,0,pick up the black bowl next to the plate and place it on the plate,0.427,1,ABSTAIN,0,0,0,gate stopped the robot,8.45,0.0
+hybrid,xvla,8,5,distractor,1,pick up the black bowl next to the plate and place it on the plate,1.0,0,EXECUTE,1,0,800,never_reached_target,8.27,161.21
+hybrid,xvla,8,5,position_change,1,pick up the black bowl next to the plate and place it on the plate,0.464,1,ABSTAIN,0,0,0,gate stopped the robot,8.83,0.0
+hybrid,xvla,8,5,occlusion,1,pick up the black bowl next to the plate and place it on the plate,0.974,0,EXECUTE,1,1,90,success,8.52,20.59
+hybrid,xvla,9,5,clean,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.321,1,ABSTAIN,0,0,0,gate stopped the robot,7.32,0.0
+hybrid,xvla,9,5,absent_reference,0,pick up the black bowl on the blue teapot and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,6.74,0.0
+hybrid,xvla,9,5,absent_target,0,pick up the blue teapot on the wooden cabinet and place it on the plate,0.0,1,ABSTAIN,0,0,0,gate stopped the robot,7.07,0.0
+hybrid,xvla,9,5,relation_violation,0,pick up the black bowl on the wooden cabinet and place it on the plate,0.267,1,ABSTAIN,0,0,0,gate stopped the robot,10.32,0.0
+hybrid,xvla,9,5,distractor,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.44,1,ABSTAIN,0,0,0,gate stopped the robot,10.67,0.0
+hybrid,xvla,9,5,position_change,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.333,1,ABSTAIN,0,0,0,gate stopped the robot,10.24,0.0
+hybrid,xvla,9,5,occlusion,1,pick up the black bowl on the wooden cabinet and place it on the plate,0.905,0,EXECUTE,1,1,120,success,10.54,28.52

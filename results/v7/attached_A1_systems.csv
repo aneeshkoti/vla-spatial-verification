@@ -1,0 +1,15 @@
+,"SmolVLA alone, no gate (saved)","X-VLA alone, no gate (saved)",hybrid + SmolVLA,hybrid + X-VLA,GDINO + SmolVLA (old)
+scenes,70/70,70/70,70/70,70/70,70/70
+wrong instr.: robot moved,30/30 (100.0%) by definition,30/30 (100.0%) by definition,3/30 (10.0%),3/30 (10.0%),5/30 (16.7%)
+  95% CI,-,-,"(3.5, 25.6)","(3.5, 25.6)","(7.3, 33.6)"
+right instr.: robot moved,40/40 (100.0%),40/40 (100.0%),23/40 (57.5%),23/40 (57.5%),22/40 (55.0%)
+task success on right instr.,14/40 (35.0%),24/40 (60.0%),9/40 (22.5%),15/40 (37.5%),7/40 (17.5%)
+success when acting,14/40 (35.0%),24/40 (60.0%),9/23 (39.1%),15/23 (65.2%),7/22 (31.8%)
+all scenes: success %,20.0,34.3,12.9,21.4,10.0
+all scenes: stopped %,0.0,0.0,62.9,62.9,61.4
+all scenes: bad %,80.0,65.7,24.3,15.7,28.6
+gate seconds per scene,-,-,8.78,8.55,9.45
+robot seconds per run,-,-,129.0,84.5,137.1
+CHECK 1: gate decision live = saved,-,-,69/70,69/70,69/70
+CHECK 2: robot outcome live = saved,-,-,23/23,23/23,22/22
+  success on those scenes: live / saved,-,-,39.1% / 39.1%,65.2% / 65.2%,31.8% / 31.8%

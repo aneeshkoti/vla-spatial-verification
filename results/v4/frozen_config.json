@@ -1,0 +1,31 @@
+{
+ "name": "v4 final (GSD (A removed))",
+ "weights": [
+  0.266667,
+  0.4,
+  0.333333,
+  0.0
+ ],
+ "high": 0.7,
+ "low": 0.5,
+ "ramp": [
+  0.22,
+  0.4
+ ],
+ "reground": true,
+ "mid_rule": true,
+ "mid_min_rel": 0.3,
+ "mid_min_unamb": 0.75,
+ "selected_on": "development start states [0, 1]",
+ "objective": "max J = invalid refused + valid accepted - 1; ties: clean TSR, AUROC, closeness to v3",
+ "action_term_removed": true,
+ "dev_metrics": {
+  "IER %": 10.0,
+  "valid_accept %": 45.0,
+  "valid_abstain %": 55.0,
+  "AUROC(C)": 0.737,
+  "J": 0.35,
+  "clean_TSR %": 40.0
+ },
+ "frozen_at": "2026-09-27 07:22:18"
+}

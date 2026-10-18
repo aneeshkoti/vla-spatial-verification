@@ -1,0 +1,8 @@
+cause,count,share %
+grounding,56,50.5
+action / execution,32,28.8
+label uncertain (not counted),9,8.1
+grounding (absent object detected),5,4.5
+depth / 3D,5,4.5
+spatial relation,3,2.7
+threshold / calibration,1,0.9

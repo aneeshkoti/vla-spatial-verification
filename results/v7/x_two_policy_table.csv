@@ -1,0 +1,7 @@
+policy,gate,wrong instr. acted on %,  95% CI,right instr. accepted %,task success on right instr. %,success when acting %,success of the REFUSED %,selection p (Fisher),rolled out,all scenes: success %,all scenes: stopped %,all scenes: bad %
+SmolVLA,no gate (always acts),100.0,"(97.5, 100.0)",100.0,42.5,42.5,,,200/200,24.3,0.0,75.7
+SmolVLA,GDINO gate (first paper),12.0,"(7.7, 18.2)",42.0,16.0,38.1,45.7,0.3123,200/200,9.1,70.9,20.0
+SmolVLA,hybrid gate (v6),5.3,"(2.7, 10.2)",52.5,23.5,44.8,40.0,0.5671,200/200,13.4,67.7,18.9
+X-VLA,no gate (always acts),100.0,"(97.5, 100.0)",100.0,62.5,62.5,,,200/200,35.7,0.0,64.3
+X-VLA,GDINO gate (first paper),12.0,"(7.7, 18.2)",42.0,23.5,56.0,67.2,0.107,200/200,13.4,70.9,15.7
+X-VLA,hybrid gate (v6),5.3,"(2.7, 10.2)",52.5,35.0,66.7,57.9,0.2422,200/200,20.0,67.7,12.3

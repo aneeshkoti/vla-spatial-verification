@@ -1,0 +1,4 @@
+gate,scenes,right bowl % (valid),right reference %,RIGHT instructions accepted %,WRONG instructions acted on % (lower=better),nominal success %,AUROC,J,seconds per scene
+Grounding DINO (old),70,32.5,50.0,42.5,13.3,50.0,0.673,0.2917,3.27
+owl,70,62.5,58.3,32.5,0.0,40.0,0.752,0.325,2.76
+owl_contrast,70,62.5,66.7,32.5,0.0,40.0,0.742,0.325,4.49

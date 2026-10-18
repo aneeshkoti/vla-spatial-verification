@@ -1,0 +1,201 @@
+task_id,state,split,condition,instruction,success,episode_length,execution_time,failure_reason,min_eef_to_target_cm,target_lifted,other_lifted,final_target_to_goal_cm
+0,5,fresh,clean,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,254.36,reached_but_no_grasp,6.6,0,,19.8
+1,5,fresh,clean,pick up the black bowl next to the ramekin and place it on the plate,1,113,78.7,success,4.9,1,,1.7
+2,5,fresh,clean,pick up the black bowl from table center and place it on the plate,0,220,149.86,reached_but_no_grasp,5.8,0,,26.6
+3,5,fresh,clean,pick up the black bowl on the cookie box and place it on the plate,1,90,62.87,success,3.9,1,,2.2
+4,5,fresh,clean,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,154.02,never_reached_target,9.2,0,,36.8
+5,5,fresh,clean,pick up the black bowl on the ramekin and place it on the plate,0,220,161.14,reached_but_no_grasp,4.9,0,,25.9
+6,5,fresh,clean,pick up the black bowl next to the cookie box and place it on the plate,1,116,80.88,success,4.1,1,,1.5
+7,5,fresh,clean,pick up the black bowl on the stove and place it on the plate,1,121,85.34,success,4.2,1,,2.1
+8,5,fresh,clean,pick up the black bowl next to the plate and place it on the plate,1,90,63.64,success,5.8,1,,1.3
+9,5,fresh,clean,pick up the black bowl on the wooden cabinet and place it on the plate,1,134,95.2,success,5.2,1,,2.4
+0,6,fresh,clean,pick up the black bowl between the plate and the ramekin and place it on the plate,1,73,51.16,success,5.4,1,,2.8
+1,6,fresh,clean,pick up the black bowl next to the ramekin and place it on the plate,1,106,73.58,success,5.0,1,,0.6
+2,6,fresh,clean,pick up the black bowl from table center and place it on the plate,1,103,71.8,success,5.0,1,,1.4
+3,6,fresh,clean,pick up the black bowl on the cookie box and place it on the plate,1,83,57.98,success,3.7,1,,0.6
+4,6,fresh,clean,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,124,87.46,success,6.1,1,,2.2
+5,6,fresh,clean,pick up the black bowl on the ramekin and place it on the plate,1,98,70.7,success,3.6,1,,1.0
+6,6,fresh,clean,pick up the black bowl next to the cookie box and place it on the plate,1,111,77.06,success,5.1,1,,0.6
+7,6,fresh,clean,pick up the black bowl on the stove and place it on the plate,1,122,86.08,success,4.8,1,,1.8
+8,6,fresh,clean,pick up the black bowl next to the plate and place it on the plate,1,92,65.39,success,4.4,1,,1.6
+9,6,fresh,clean,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,153.37,never_reached_target,10.4,0,,56.4
+0,7,fresh,clean,pick up the black bowl between the plate and the ramekin and place it on the plate,1,72,49.83,success,4.8,1,,0.2
+1,7,fresh,clean,pick up the black bowl next to the ramekin and place it on the plate,0,220,148.9,reached_but_no_grasp,6.2,0,,28.7
+2,7,fresh,clean,pick up the black bowl from table center and place it on the plate,1,110,76.86,success,5.1,1,,0.9
+3,7,fresh,clean,pick up the black bowl on the cookie box and place it on the plate,0,220,152.36,grasped_but_not_placed,5.3,1,,4.7
+4,7,fresh,clean,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,128,89.76,success,5.8,1,,0.9
+5,7,fresh,clean,pick up the black bowl on the ramekin and place it on the plate,1,100,72.11,success,2.8,1,,2.2
+6,7,fresh,clean,pick up the black bowl next to the cookie box and place it on the plate,1,94,65.0,success,5.8,1,,1.8
+7,7,fresh,clean,pick up the black bowl on the stove and place it on the plate,0,220,152.78,grasped_but_not_placed,5.3,1,,3.4
+8,7,fresh,clean,pick up the black bowl next to the plate and place it on the plate,1,88,62.66,success,4.9,1,,2.6
+9,7,fresh,clean,pick up the black bowl on the wooden cabinet and place it on the plate,1,114,80.36,success,5.5,1,,1.2
+0,8,fresh,clean,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,150.64,reached_but_no_grasp,4.9,0,,17.8
+1,8,fresh,clean,pick up the black bowl next to the ramekin and place it on the plate,0,220,148.11,reached_but_no_grasp,5.7,0,,28.1
+2,8,fresh,clean,pick up the black bowl from table center and place it on the plate,0,220,149.13,reached_but_no_grasp,6.3,0,,23.2
+3,8,fresh,clean,pick up the black bowl on the cookie box and place it on the plate,0,220,152.05,reached_but_no_grasp,6.2,0,,16.7
+4,8,fresh,clean,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,126,89.49,success,6.6,1,,0.5
+5,8,fresh,clean,pick up the black bowl on the ramekin and place it on the plate,0,220,159.25,reached_but_no_grasp,5.3,0,,31.6
+6,8,fresh,clean,pick up the black bowl next to the cookie box and place it on the plate,0,220,151.78,grasped_but_not_placed,5.1,1,,3.9
+7,8,fresh,clean,pick up the black bowl on the stove and place it on the plate,1,118,83.04,success,5.0,1,,2.1
+8,8,fresh,clean,pick up the black bowl next to the plate and place it on the plate,1,91,64.65,success,5.3,1,,1.5
+9,8,fresh,clean,pick up the black bowl on the wooden cabinet and place it on the plate,1,123,88.44,success,6.1,1,,1.8
+0,9,fresh,clean,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,150.36,reached_but_no_grasp,7.2,0,,17.8
+1,9,fresh,clean,pick up the black bowl next to the ramekin and place it on the plate,1,104,72.77,success,4.1,1,,2.4
+2,9,fresh,clean,pick up the black bowl from table center and place it on the plate,1,102,71.22,success,4.4,1,,1.5
+3,9,fresh,clean,pick up the black bowl on the cookie box and place it on the plate,0,220,149.05,reached_but_no_grasp,6.1,0,,19.1
+4,9,fresh,clean,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,152.82,never_reached_target,8.2,0,,34.3
+5,9,fresh,clean,pick up the black bowl on the ramekin and place it on the plate,1,99,72.51,success,3.4,1,,1.4
+6,9,fresh,clean,pick up the black bowl next to the cookie box and place it on the plate,1,103,72.21,success,5.5,1,,3.0
+7,9,fresh,clean,pick up the black bowl on the stove and place it on the plate,1,115,80.92,success,5.2,1,,2.3
+8,9,fresh,clean,pick up the black bowl next to the plate and place it on the plate,1,99,70.81,success,4.5,1,,1.1
+9,9,fresh,clean,pick up the black bowl on the wooden cabinet and place it on the plate,1,141,99.58,success,6.0,1,,0.7
+0,5,fresh,distractor,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,148.51,reached_but_no_grasp,6.5,0,,19.4
+1,5,fresh,distractor,pick up the black bowl next to the ramekin and place it on the plate,1,122,85.97,success,4.5,1,,2.0
+2,5,fresh,distractor,pick up the black bowl from table center and place it on the plate,0,220,157.92,reached_but_no_grasp,6.9,0,,25.2
+3,5,fresh,distractor,pick up the black bowl on the cookie box and place it on the plate,0,220,161.67,grasped_but_not_placed,4.2,1,,2.5
+4,5,fresh,distractor,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,157.71,never_reached_target,9.6,0,,34.0
+5,5,fresh,distractor,pick up the black bowl on the ramekin and place it on the plate,0,220,155.98,reached_but_no_grasp,5.2,0,,29.0
+6,5,fresh,distractor,pick up the black bowl next to the cookie box and place it on the plate,0,220,159.03,grasped_but_not_placed,5.2,1,,2.2
+7,5,fresh,distractor,pick up the black bowl on the stove and place it on the plate,0,220,159.77,grasped_but_not_placed,5.0,1,akita_black_bowl_2,4.5
+8,5,fresh,distractor,pick up the black bowl next to the plate and place it on the plate,0,220,152.75,never_reached_target,8.1,0,,14.0
+9,5,fresh,distractor,pick up the black bowl on the wooden cabinet and place it on the plate,1,122,87.17,success,5.7,1,,2.1
+0,6,fresh,distractor,pick up the black bowl between the plate and the ramekin and place it on the plate,1,73,50.84,success,5.3,1,,3.0
+1,6,fresh,distractor,pick up the black bowl next to the ramekin and place it on the plate,1,105,72.97,success,5.0,1,,0.6
+2,6,fresh,distractor,pick up the black bowl from table center and place it on the plate,1,104,76.82,success,5.8,1,,2.7
+3,6,fresh,distractor,pick up the black bowl on the cookie box and place it on the plate,0,220,157.78,grasped_but_not_placed,4.3,1,,3.6
+4,6,fresh,distractor,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,151.65,never_reached_target,8.6,0,,38.4
+5,6,fresh,distractor,pick up the black bowl on the ramekin and place it on the plate,0,220,152.83,reached_but_no_grasp,5.2,0,,29.5
+6,6,fresh,distractor,pick up the black bowl next to the cookie box and place it on the plate,0,220,155.13,grasped_but_not_placed,5.5,1,,3.7
+7,6,fresh,distractor,pick up the black bowl on the stove and place it on the plate,1,163,123.97,success,5.0,1,akita_black_bowl_2,1.6
+8,6,fresh,distractor,pick up the black bowl next to the plate and place it on the plate,1,95,68.91,success,4.4,1,,1.7
+9,6,fresh,distractor,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,158.25,never_reached_target,12.0,0,,53.5
+0,7,fresh,distractor,pick up the black bowl between the plate and the ramekin and place it on the plate,1,76,53.77,success,4.4,1,,0.5
+1,7,fresh,distractor,pick up the black bowl next to the ramekin and place it on the plate,0,220,149.14,reached_but_no_grasp,5.1,0,,28.8
+2,7,fresh,distractor,pick up the black bowl from table center and place it on the plate,1,101,73.65,success,5.7,1,,1.0
+3,7,fresh,distractor,pick up the black bowl on the cookie box and place it on the plate,0,220,160.28,grasped_but_not_placed,4.2,1,,3.5
+4,7,fresh,distractor,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,123,90.1,success,6.5,1,,0.7
+5,7,fresh,distractor,pick up the black bowl on the ramekin and place it on the plate,1,94,68.37,success,3.8,1,,2.6
+6,7,fresh,distractor,pick up the black bowl next to the cookie box and place it on the plate,1,95,67.81,success,6.1,1,,2.8
+7,7,fresh,distractor,pick up the black bowl on the stove and place it on the plate,1,173,127.89,success,5.0,1,akita_black_bowl_2,2.0
+8,7,fresh,distractor,pick up the black bowl next to the plate and place it on the plate,1,104,73.29,success,5.3,1,,1.0
+9,7,fresh,distractor,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,156.27,never_reached_target,10.3,0,,50.1
+0,8,fresh,distractor,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,154.82,reached_but_no_grasp,6.9,0,,17.3
+1,8,fresh,distractor,pick up the black bowl next to the ramekin and place it on the plate,0,220,152.99,reached_but_no_grasp,4.7,0,,32.5
+2,8,fresh,distractor,pick up the black bowl from table center and place it on the plate,0,220,161.08,reached_but_no_grasp,6.3,0,,24.1
+3,8,fresh,distractor,pick up the black bowl on the cookie box and place it on the plate,0,220,164.45,grasped_but_not_placed,4.7,1,,3.6
+4,8,fresh,distractor,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,161.92,grasped_but_not_placed,6.6,1,,31.4
+5,8,fresh,distractor,pick up the black bowl on the ramekin and place it on the plate,0,220,155.75,reached_but_no_grasp,5.5,0,,32.2
+6,8,fresh,distractor,pick up the black bowl next to the cookie box and place it on the plate,0,220,159.13,grasped_but_not_placed,4.9,1,,4.4
+7,8,fresh,distractor,pick up the black bowl on the stove and place it on the plate,0,220,154.48,never_reached_target,11.6,0,,48.2
+8,8,fresh,distractor,pick up the black bowl next to the plate and place it on the plate,0,220,158.14,grasped_but_not_placed,6.3,1,,3.4
+9,8,fresh,distractor,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,153.11,never_reached_target,12.0,0,,52.3
+0,9,fresh,distractor,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,150.01,reached_but_no_grasp,7.1,0,,15.4
+1,9,fresh,distractor,pick up the black bowl next to the ramekin and place it on the plate,1,99,68.75,success,4.2,1,,1.7
+2,9,fresh,distractor,pick up the black bowl from table center and place it on the plate,1,97,71.58,success,4.5,1,,2.6
+3,9,fresh,distractor,pick up the black bowl on the cookie box and place it on the plate,0,220,160.99,grasped_but_not_placed,6.4,1,,3.7
+4,9,fresh,distractor,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,158.88,never_reached_target,9.5,0,,34.3
+5,9,fresh,distractor,pick up the black bowl on the ramekin and place it on the plate,0,220,158.39,grasped_but_not_placed,5.0,1,glazed_rim_porcelain_ramekin_1,5.0
+6,9,fresh,distractor,pick up the black bowl next to the cookie box and place it on the plate,1,102,73.01,success,5.4,1,,2.7
+7,9,fresh,distractor,pick up the black bowl on the stove and place it on the plate,0,220,154.92,wrong_object_grasped,10.3,0,akita_black_bowl_2,48.0
+8,9,fresh,distractor,pick up the black bowl next to the plate and place it on the plate,0,220,158.4,grasped_but_not_placed,4.7,1,,3.5
+9,9,fresh,distractor,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,153.86,never_reached_target,11.4,0,,53.3
+0,5,fresh,position_change,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,151.49,reached_but_no_grasp,7.4,0,,29.8
+1,5,fresh,position_change,pick up the black bowl next to the ramekin and place it on the plate,0,220,152.68,grasped_but_not_placed,4.3,1,,44.8
+2,5,fresh,position_change,pick up the black bowl from table center and place it on the plate,0,220,154.34,grasped_but_not_placed,5.0,1,,37.0
+3,5,fresh,position_change,pick up the black bowl on the cookie box and place it on the plate,0,220,152.82,grasped_but_not_placed,5.2,1,,40.4
+4,5,fresh,position_change,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,155.23,never_reached_target,9.7,0,,36.6
+5,5,fresh,position_change,pick up the black bowl on the ramekin and place it on the plate,0,220,157.21,grasped_but_not_placed,3.1,1,,28.5
+6,5,fresh,position_change,pick up the black bowl next to the cookie box and place it on the plate,0,220,153.2,grasped_but_not_placed,5.5,1,,22.1
+7,5,fresh,position_change,pick up the black bowl on the stove and place it on the plate,0,220,156.75,grasped_but_not_placed,5.9,1,,25.3
+8,5,fresh,position_change,pick up the black bowl next to the plate and place it on the plate,0,220,152.88,grasped_but_not_placed,6.4,1,,37.7
+9,5,fresh,position_change,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,154.17,grasped_but_not_placed,6.1,1,,23.3
+0,6,fresh,position_change,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,150.4,grasped_but_not_placed,4.8,1,,37.8
+1,6,fresh,position_change,pick up the black bowl next to the ramekin and place it on the plate,0,220,152.12,reached_but_no_grasp,7.0,0,,35.7
+2,6,fresh,position_change,pick up the black bowl from table center and place it on the plate,0,220,153.83,grasped_but_not_placed,5.1,1,,37.4
+3,6,fresh,position_change,pick up the black bowl on the cookie box and place it on the plate,0,220,153.23,grasped_but_not_placed,7.1,1,,34.7
+4,6,fresh,position_change,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,150.49,never_reached_target,9.8,0,,26.2
+5,6,fresh,position_change,pick up the black bowl on the ramekin and place it on the plate,0,220,157.15,grasped_but_not_placed,4.3,1,,33.5
+6,6,fresh,position_change,pick up the black bowl next to the cookie box and place it on the plate,0,220,153.55,grasped_but_not_placed,5.1,1,,34.1
+7,6,fresh,position_change,pick up the black bowl on the stove and place it on the plate,0,220,260.78,grasped_but_not_placed,4.9,1,,24.7
+8,6,fresh,position_change,pick up the black bowl next to the plate and place it on the plate,0,220,253.25,grasped_but_not_placed,4.6,1,,30.5
+9,6,fresh,position_change,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,253.19,never_reached_target,10.4,0,,32.6
+0,7,fresh,position_change,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,249.32,grasped_but_not_placed,6.1,1,,39.2
+1,7,fresh,position_change,pick up the black bowl next to the ramekin and place it on the plate,0,220,251.05,reached_but_no_grasp,5.5,0,,45.3
+2,7,fresh,position_change,pick up the black bowl from table center and place it on the plate,0,220,257.63,grasped_but_not_placed,5.2,1,,35.8
+3,7,fresh,position_change,pick up the black bowl on the cookie box and place it on the plate,0,220,258.88,grasped_but_not_placed,5.9,1,,37.9
+4,7,fresh,position_change,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,252.68,reached_but_no_grasp,7.8,0,,33.8
+5,7,fresh,position_change,pick up the black bowl on the ramekin and place it on the plate,0,220,264.34,grasped_but_not_placed,4.1,1,,31.5
+6,7,fresh,position_change,pick up the black bowl next to the cookie box and place it on the plate,0,220,256.28,grasped_but_not_placed,5.8,1,,30.5
+7,7,fresh,position_change,pick up the black bowl on the stove and place it on the plate,0,220,315.01,reached_but_no_grasp,6.2,0,,20.3
+8,7,fresh,position_change,pick up the black bowl next to the plate and place it on the plate,0,220,367.19,grasped_but_not_placed,4.6,1,,28.4
+9,7,fresh,position_change,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,365.87,reached_but_no_grasp,6.0,0,,26.9
+0,8,fresh,position_change,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,196.12,grasped_but_not_placed,5.1,1,,38.9
+1,8,fresh,position_change,pick up the black bowl next to the ramekin and place it on the plate,0,220,151.29,grasped_but_not_placed,3.2,1,,48.5
+2,8,fresh,position_change,pick up the black bowl from table center and place it on the plate,0,220,153.57,grasped_but_not_placed,5.7,1,,37.7
+3,8,fresh,position_change,pick up the black bowl on the cookie box and place it on the plate,0,220,151.8,reached_but_no_grasp,6.6,0,,33.7
+4,8,fresh,position_change,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,157.43,never_reached_target,8.6,0,,35.1
+5,8,fresh,position_change,pick up the black bowl on the ramekin and place it on the plate,0,220,156.76,grasped_but_not_placed,5.1,1,,30.0
+6,8,fresh,position_change,pick up the black bowl next to the cookie box and place it on the plate,0,220,151.81,grasped_but_not_placed,5.3,1,,30.9
+7,8,fresh,position_change,pick up the black bowl on the stove and place it on the plate,0,220,150.49,never_reached_target,10.3,0,,19.6
+8,8,fresh,position_change,pick up the black bowl next to the plate and place it on the plate,0,220,151.93,grasped_but_not_placed,5.2,1,,37.1
+9,8,fresh,position_change,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,150.57,never_reached_target,11.5,0,,37.8
+0,9,fresh,position_change,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,150.57,reached_but_no_grasp,7.6,0,,27.5
+1,9,fresh,position_change,pick up the black bowl next to the ramekin and place it on the plate,0,220,151.42,reached_but_no_grasp,5.5,0,,43.3
+2,9,fresh,position_change,pick up the black bowl from table center and place it on the plate,0,220,155.73,grasped_but_not_placed,4.5,1,,36.8
+3,9,fresh,position_change,pick up the black bowl on the cookie box and place it on the plate,0,220,150.82,reached_but_no_grasp,7.0,0,,35.3
+4,9,fresh,position_change,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,159.15,never_reached_target,9.1,0,,36.7
+5,9,fresh,position_change,pick up the black bowl on the ramekin and place it on the plate,0,220,156.93,grasped_but_not_placed,5.0,1,,29.0
+6,9,fresh,position_change,pick up the black bowl next to the cookie box and place it on the plate,0,220,154.2,grasped_but_not_placed,5.2,1,,32.6
+7,9,fresh,position_change,pick up the black bowl on the stove and place it on the plate,0,220,154.02,never_reached_target,10.3,0,,18.7
+8,9,fresh,position_change,pick up the black bowl next to the plate and place it on the plate,0,220,162.83,reached_but_no_grasp,5.7,0,,39.3
+9,9,fresh,position_change,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,154.16,never_reached_target,11.8,0,,38.8
+0,5,fresh,occlusion,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,154.4,reached_but_no_grasp,6.4,0,,16.9
+1,5,fresh,occlusion,pick up the black bowl next to the ramekin and place it on the plate,1,110,77.56,success,4.9,1,,1.5
+2,5,fresh,occlusion,pick up the black bowl from table center and place it on the plate,0,220,151.68,reached_but_no_grasp,6.9,0,,25.5
+3,5,fresh,occlusion,pick up the black bowl on the cookie box and place it on the plate,1,92,67.28,success,4.1,1,,1.9
+4,5,fresh,occlusion,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,161.28,never_reached_target,9.0,0,,33.8
+5,5,fresh,occlusion,pick up the black bowl on the ramekin and place it on the plate,0,220,165.58,grasped_but_not_placed,5.0,1,,6.4
+6,5,fresh,occlusion,pick up the black bowl next to the cookie box and place it on the plate,1,119,86.33,success,4.8,1,,0.5
+7,5,fresh,occlusion,pick up the black bowl on the stove and place it on the plate,1,118,88.81,success,4.4,1,,2.5
+8,5,fresh,occlusion,pick up the black bowl next to the plate and place it on the plate,1,91,67.24,success,5.6,1,,1.8
+9,5,fresh,occlusion,pick up the black bowl on the wooden cabinet and place it on the plate,1,137,98.0,success,5.2,1,,2.6
+0,6,fresh,occlusion,pick up the black bowl between the plate and the ramekin and place it on the plate,1,75,53.46,success,5.3,1,,2.7
+1,6,fresh,occlusion,pick up the black bowl next to the ramekin and place it on the plate,1,106,74.21,success,5.5,1,,0.6
+2,6,fresh,occlusion,pick up the black bowl from table center and place it on the plate,1,104,76.27,success,4.9,1,,1.9
+3,6,fresh,occlusion,pick up the black bowl on the cookie box and place it on the plate,1,86,62.37,success,3.7,1,,0.8
+4,6,fresh,occlusion,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,156.07,never_reached_target,8.4,0,,38.3
+5,6,fresh,occlusion,pick up the black bowl on the ramekin and place it on the plate,1,99,74.48,success,3.1,1,,1.4
+6,6,fresh,occlusion,pick up the black bowl next to the cookie box and place it on the plate,1,114,82.1,success,5.4,1,,0.4
+7,6,fresh,occlusion,pick up the black bowl on the stove and place it on the plate,1,117,85.32,success,4.9,1,,1.1
+8,6,fresh,occlusion,pick up the black bowl next to the plate and place it on the plate,1,91,67.84,success,4.4,1,,1.2
+9,6,fresh,occlusion,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,157.63,never_reached_target,10.4,0,,51.9
+0,7,fresh,occlusion,pick up the black bowl between the plate and the ramekin and place it on the plate,1,74,53.66,success,4.8,1,,0.7
+1,7,fresh,occlusion,pick up the black bowl next to the ramekin and place it on the plate,0,220,155.68,reached_but_no_grasp,5.3,0,,27.6
+2,7,fresh,occlusion,pick up the black bowl from table center and place it on the plate,1,111,81.32,success,4.9,1,,0.7
+3,7,fresh,occlusion,pick up the black bowl on the cookie box and place it on the plate,0,220,159.81,grasped_but_not_placed,5.1,1,,3.3
+4,7,fresh,occlusion,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,120,86.84,success,6.4,1,,0.4
+5,7,fresh,occlusion,pick up the black bowl on the ramekin and place it on the plate,1,102,76.7,success,2.6,1,,2.5
+6,7,fresh,occlusion,pick up the black bowl next to the cookie box and place it on the plate,1,99,72.02,success,6.0,1,,2.4
+7,7,fresh,occlusion,pick up the black bowl on the stove and place it on the plate,1,124,91.08,success,5.5,1,,2.9
+8,7,fresh,occlusion,pick up the black bowl next to the plate and place it on the plate,1,89,65.84,success,4.9,1,,2.1
+9,7,fresh,occlusion,pick up the black bowl on the wooden cabinet and place it on the plate,1,128,94.7,success,5.3,1,,1.1
+0,8,fresh,occlusion,pick up the black bowl between the plate and the ramekin and place it on the plate,1,142,103.21,success,4.7,1,,3.0
+1,8,fresh,occlusion,pick up the black bowl next to the ramekin and place it on the plate,0,220,156.02,reached_but_no_grasp,5.9,0,,28.6
+2,8,fresh,occlusion,pick up the black bowl from table center and place it on the plate,1,103,75.09,success,5.8,1,,1.9
+3,8,fresh,occlusion,pick up the black bowl on the cookie box and place it on the plate,1,84,61.89,success,5.1,1,,1.0
+4,8,fresh,occlusion,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,1,202,150.39,success,5.4,1,,2.7
+5,8,fresh,occlusion,pick up the black bowl on the ramekin and place it on the plate,0,220,167.12,reached_but_no_grasp,5.2,0,,28.7
+6,8,fresh,occlusion,pick up the black bowl next to the cookie box and place it on the plate,0,220,158.62,grasped_but_not_placed,4.9,1,,3.2
+7,8,fresh,occlusion,pick up the black bowl on the stove and place it on the plate,1,105,77.21,success,5.0,1,,1.4
+8,8,fresh,occlusion,pick up the black bowl next to the plate and place it on the plate,1,82,61.46,success,6.0,1,,0.9
+9,8,fresh,occlusion,pick up the black bowl on the wooden cabinet and place it on the plate,0,220,158.55,never_reached_target,8.2,0,,48.0
+0,9,fresh,occlusion,pick up the black bowl between the plate and the ramekin and place it on the plate,0,220,158.55,grasped_but_not_placed,5.3,1,,4.6
+1,9,fresh,occlusion,pick up the black bowl next to the ramekin and place it on the plate,1,103,74.03,success,4.3,1,,2.1
+2,9,fresh,occlusion,pick up the black bowl from table center and place it on the plate,1,103,75.07,success,4.0,1,,1.0
+3,9,fresh,occlusion,pick up the black bowl on the cookie box and place it on the plate,0,220,156.22,reached_but_no_grasp,6.2,0,,18.5
+4,9,fresh,occlusion,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,0,220,158.89,never_reached_target,8.5,0,,34.6
+5,9,fresh,occlusion,pick up the black bowl on the ramekin and place it on the plate,1,95,72.33,success,3.2,1,,1.2
+6,9,fresh,occlusion,pick up the black bowl next to the cookie box and place it on the plate,1,111,80.41,success,5.9,1,,2.8
+7,9,fresh,occlusion,pick up the black bowl on the stove and place it on the plate,1,119,87.75,success,5.3,1,,1.7
+8,9,fresh,occlusion,pick up the black bowl next to the plate and place it on the plate,1,90,67.42,success,4.5,1,,1.9
+9,9,fresh,occlusion,pick up the black bowl on the wooden cabinet and place it on the plate,1,148,108.7,success,5.5,1,,1.0
