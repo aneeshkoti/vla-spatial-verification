@@ -1,0 +1,8 @@
+{
+ "execute_correct": "<b>Correct instruction</b><br><i>“pick up the black bowl next to the ramekin and place it on the plate”</i><br>C = 1.00 → <b>EXECUTE</b>, then SmolVLA completes the task.",
+ "execute_occlusion": "<b>Valid, part of the scene covered</b><br><i>“pick up the black bowl next to the plate and place it on the plate”</i><br>C = 0.97 → <b>EXECUTE</b>, then SmolVLA completes the task.",
+ "stop_absent_reference": "<b>Impossible: the reference is not on the table</b><br><i>“pick up the black bowl next to the blue teapot and place it on the plate”</i><br>C = 0.00 → <b>STOP</b>: the robot does not move.",
+ "stop_relation_violated": "<b>Impossible: the bowl was moved away</b><br><i>“pick up the black bowl next to the ramekin and place it on the plate”</i><br>C = 0.25 → <b>STOP</b>: the robot does not move.",
+ "limitation_moved_plate": "<b>Limitation: the plate was moved</b><br><i>“pick up the black bowl between the plate and the ramekin and place it on the plate”</i><br>SmolVLA alone carries the bowl to where the plate used to be (orange, 2 cm away) instead of the plate (blue, 37 cm). A check before motion cannot see this.",
+ "execute_distractor_xvla": "<b>Valid, extra bowl added, X-VLA</b><br><i>“pick up the black bowl between the plate and the ramekin and place it on the plate”</i><br>C = 1.00 → <b>EXECUTE</b>, then X-VLA completes the task."
+}

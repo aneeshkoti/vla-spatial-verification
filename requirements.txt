@@ -1,0 +1,14 @@
+# LeRobot with SmolVLA, X-VLA and the LIBERO simulator (brings PyTorch, transformers, MuJoCo and robosuite).
+# We used LeRobot 0.6.2 installed from source; the PyPI release 0.6.1 contains every LeRobot module this code uses.
+lerobot[smolvla,xvla,libero]>=0.6.1,<0.7
+
+# analysis, figures and notebooks
+matplotlib
+jupyter
+
+# demo videos
+imageio[ffmpeg]
+
+# only for the VLM judge (Qwen2.5-VL 3B in 4 bit)
+bitsandbytes
+accelerate

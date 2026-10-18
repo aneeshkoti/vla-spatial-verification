@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vla-gate"
+version = "1.0.0"
+description = "Training-free spatial verification and action gating for frozen vision-language-action policies"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Aneesh Koti" }]
+dependencies = ["numpy", "pandas", "Pillow", "matplotlib"]
+
+[project.optional-dependencies]
+robot = ["lerobot[smolvla,xvla,libero]>=0.6.1,<0.7"]
+
+[tool.setuptools]
+packages = ["vla_gate"]
