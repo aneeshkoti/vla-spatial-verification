@@ -38,6 +38,7 @@ our run in `results/`, the run cells print "0 to run" and the results cells rebu
 | `02_study2_hybrid_gate.ipynb` | Sections V-A, V-B, V-E: Tables IV and V | `v6/verify_owl*.csv`, `v6/fresh_verify_*.csv`, `v6/fresh_rollouts.csv` |
 | `03_second_policy_and_vlm_judge.ipynb` | Sections V-B, V-C: Tables V and VI, data of Fig. 5 | `v7/xvla_rollouts.csv`, `v7/vlm_judge_*.csv` |
 | `04_attached_run_and_demo.ipynb` | Section V-D: Table VII, the demo video | `v7/live_*.csv`, `v7/demo/` |
+| `05_detector_comparison.ipynb` | Section V-A: the four detectors outside the gate, Fig. 4 | `v6/scenes/`, `v6/detections/`, `v6/detector_comparison.csv` |
 
 Development and test data were kept apart: Study 1 developed on initial states 0-1 and tested on 2-4; Study 2 developed on
 states 0-2 and tested on 5-9, which no earlier experiment had touched. The freeze cells refuse to overwrite a frozen settings file,
@@ -45,10 +46,7 @@ and the test sweeps refuse to start before it exists.
 
 ## Not included
 
-* The stand-alone comparison of four detectors outside the gate (Grounding DINO, MM-Grounding-DINO, LLMDet and OWLv2 on the 70
-  development scenes of initial state 0; Section V-A and Fig. 4 of the paper) was run in a separate notebook that is not part of
-  this repository yet. The gate-level detector experiments of Table IV are included (notebook 02).
-* Earlier development notebooks (versions 1 to 3 of the method) and optional experiments that are not in the paper.
+Earlier development notebooks (versions 1 to 3 of the method) and optional experiments that are not in the paper.
 
 ## Hardware and time
 
